@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /*
 NoteController Ver:v0.0.1_2019052601a
@@ -40,10 +38,6 @@ public class NoteController : MonoBehaviour
     int[] judgementPointer;
     float[,] buttonJudgementTime;//buttonJudgementTime[pos,tapPointer]
 
-    void Awake()
-    {
-
-    }
     // Start is called before the first frame update
     void Start()
     {
