@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b760819a-1a2f-4b69-a55f-e722975ee2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.main/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MapData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/NoteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/NoteController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ObjectPooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.main/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.main/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/NoteController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <marker date="1558874794838" expanded="true" signature="20:138" ph="/* NoteController Ver:v0.0.1_2019052601a ... */" />
                 <marker date="1558874794838" expanded="true" signature="183:4721" ph="{...}" />
@@ -46,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/ObjectPooler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+            <state>
+              <caret column="55" selection-start-column="6" selection-end-column="63" />
               <folding>
                 <marker date="1558874794938" expanded="true" signature="0:284" ph="/* Thx https://www.raywenderlich.com/847-object-pooling-in-unity ... */" />
                 <marker date="1558874794938" expanded="true" signature="293:339" ph="..." />
@@ -73,10 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/MapData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-270">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
               <folding>
                 <marker date="1558874794905" expanded="true" signature="6:52" ph="..." />
                 <marker date="1558874794905" expanded="true" signature="54:165" ph="/* MapData Ver:v0.0.1_2019052601a ... */" />
@@ -119,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="601" />
     <option name="y" value="24" />
     <option name="width" value="974" />
@@ -149,6 +149,9 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
@@ -192,12 +195,20 @@
       <option name="presentableId" value="Default" />
       <updated>1558873299786</updated>
       <workItem from="1558873306219" duration="501000" />
-      <workItem from="1558873874087" duration="919000" />
+      <workItem from="1558873874087" duration="2607000" />
     </task>
+    <task id="LOCAL-00001" summary="最佳化">
+      <created>1558874823393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558874823393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1420000" />
+    <option name="totallyTimeSpent" value="3108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,12 +220,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="601" y="24" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,7 +237,7 @@
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32942432" />
       <window_info anchor="bottom" id="Unity" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
@@ -247,6 +257,36 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="最佳化" />
+    <option name="LAST_COMMIT_MESSAGE" value="最佳化" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -258,10 +298,35 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MapData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <marker date="1558874794905" expanded="true" signature="6:52" ph="..." />
+            <marker date="1558874794905" expanded="true" signature="54:165" ph="/* MapData Ver:v0.0.1_2019052601a ... */" />
+            <marker date="1558874794905" expanded="true" signature="243:410" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="470:690" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="728:2569" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="735:819" ph="/* Score related value ... */" />
+            <marker date="1558874794905" expanded="true" signature="824:968" ph="/* 分數表 ... */" />
+            <marker date="1558874794905" expanded="true" signature="973:1046" ph="/* int totalTapIndex=0; ... */" />
+            <marker date="1558874794905" expanded="true" signature="1201:2320" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="1316:2314" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="1404:2112" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="1489:2098" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="1606:1810" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="1837:2080" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="2137:2304" ph="{...}" />
+            <marker date="1558874794905" expanded="true" signature="2326:2567" ph="/* public static void NoteSpawn(float timer,float hiSpeed) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/NoteController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <marker date="1558874794838" expanded="true" signature="20:138" ph="/* NoteController Ver:v0.0.1_2019052601a ... */" />
             <marker date="1558874794838" expanded="true" signature="183:4721" ph="{...}" />
@@ -289,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/ObjectPooler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+        <state>
+          <caret column="55" selection-start-column="6" selection-end-column="63" />
           <folding>
             <marker date="1558874794938" expanded="true" signature="0:284" ph="/* Thx https://www.raywenderlich.com/847-object-pooling-in-unity ... */" />
             <marker date="1558874794938" expanded="true" signature="293:339" ph="..." />
@@ -308,30 +373,6 @@
             <marker date="1558874794938" expanded="true" signature="2761:2941" ph="{...}" />
             <marker date="1558874794938" expanded="true" signature="2822:2923" ph="{...}" />
             <marker date="1558874794938" expanded="true" signature="3059:3468" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MapData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1558874794905" expanded="true" signature="6:52" ph="..." />
-            <marker date="1558874794905" expanded="true" signature="54:165" ph="/* MapData Ver:v0.0.1_2019052601a ... */" />
-            <marker date="1558874794905" expanded="true" signature="243:410" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="470:690" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="728:2569" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="735:819" ph="/* Score related value ... */" />
-            <marker date="1558874794905" expanded="true" signature="824:968" ph="/* 分數表 ... */" />
-            <marker date="1558874794905" expanded="true" signature="973:1046" ph="/* int totalTapIndex=0; ... */" />
-            <marker date="1558874794905" expanded="true" signature="1201:2320" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="1316:2314" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="1404:2112" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="1489:2098" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="1606:1810" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="1837:2080" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="2137:2304" ph="{...}" />
-            <marker date="1558874794905" expanded="true" signature="2326:2567" ph="/* public static void NoteSpawn(float timer,float hiSpeed) ... */" />
           </folding>
         </state>
       </provider>
